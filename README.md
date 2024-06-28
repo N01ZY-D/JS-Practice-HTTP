@@ -4,11 +4,11 @@
 
 200 OK - https://api.openweathermap.org/data/2.5/weather?lat=54.52&lon=28.41
 
-400 "Nothing to geocode" - нет параметров
+400 "Nothing to geocode" - нет параметров (https://api.openweathermap.org/data/2.5/weather)
 
 401 "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info." - нет ключа API
 
-404 "Not Found" - неправильное значение параметров
+404 "Not Found" - неправильное значение параметров (https://api.openweathermap.org/data/2.5/weather?lat=1000&lon=1000)
 
 405 "Method Not Allowed" - если попытаться сделать PUT, PATCH, DELETE, OPTIONS запросы
 
